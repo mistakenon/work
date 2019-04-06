@@ -1,0 +1,447 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section 
+{
+  display: block;
+}
+
+html, body {
+  min-width: 1600px;
+  min-height: 1500px;
+  margin: 0;
+  padding: 0;
+}
+/** -----------------------first page------------------------------------- **/
+.first {
+  position: relative;
+  height: 990px;
+  background-size: 100% 100%;
+  background-image: url('./images/前端学院设计图_01.png');
+  
+}
+
+.create-account {
+  width: 60%;
+  height: 25%;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  border: 1px solid gray;
+}
+
+#account, #password {
+  width: 20%;
+  height: 15%;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid gray;
+  position: absolute;
+  top: 60%;
+}
+
+#account {
+  left: 29%;
+}
+
+#password {
+  left: 51%;
+}
+
+.submit {
+  width: 10%;
+  height: 15%;
+  position: absolute;
+  top: 60%;
+  left: 73%;
+  background-color: white;
+  border-style: none;
+}
+/* -----------------------second page-------------------------------- */
+.second {
+  position: relative;
+  height: 720px;
+  background-color: white;
+  text-align: center;
+}
+.second h4 {
+  font-weight: lighter;
+  line-height: 100px;
+}
+.second h1 {
+  font-size: 30px;
+  font-weight: lighter;
+}
+.page-left-up {
+  width: 25%;
+  height: 20%;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.page-left-down {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+.page-right-up {
+  width: 25%;
+  height: 20%;
+  position: absolute;
+  top: 40%;
+  right: 20%;
+}
+.page-right-down {
+  width: 100%;
+  position: absolute;
+  top: 90%;
+}
+.mobile {
+  width: 32px;
+  height: 50px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -174px -1px;
+}
+.access {
+  width: 41px;
+  height: 38px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -123px -52px;
+}
+.fluid {
+  width: 49px;
+  height: 48px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -123px -1px;
+}
+.content {
+  position: absolute;
+  text-align: left;
+  left: 80px;
+  top: -25px;
+}
+.custom {
+  width: 50px;
+  height: 42px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -1px -110px;
+}
+/* ------------------------third page-------------------------=------- */
+.third {
+  height: 800px;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url('./images/前端学院设计图_02.png');
+}
+
+.for-check, .for-try {
+  width: 14%;
+  height: 8%;
+  font-weight: bold;
+  border: 1px solid grey;
+  background-color: white;
+  position: absolute;
+  top: 70%;
+}
+
+.for-check {
+  left: 20%;
+}
+
+.for-try {
+  left: 36%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0)
+}
+/* ----------------------------forth page -------------------------------- */
+.forth {
+  height: 580px;
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+.forth h1{
+  font-size: 30px;
+  font-weight: lighter;
+  position: absolute;
+  top: 10%;
+  left: 42%;;
+}
+.page-first {
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+.page-second {
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+}
+.page-third {
+  width: 15%;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+}
+.single {
+  width: 120px;
+  height: 35px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -1px -1px;
+  position: absolute;
+  top: -25%;
+  left: 25%;
+}
+.hero {
+  width: 75px;
+  height: 34px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -1px -74px;
+  position: absolute;
+  top: -25%;
+  left: 30%;
+}
+.prod {
+  width: 117px;
+  height: 34px;
+  background-image: url('./images/css_sprites.png');
+  background-position: -1px -38px;
+  position: absolute;
+  top: -25%;
+  left: 20%;
+}
+/* -------------------------------fifth page---------------------------------- */
+.fifth {
+  height: 1090px;
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+.up, .down{
+  height: 50%;
+  position: relative;
+}
+.frost {
+  width: 570px;
+  height: 350px;
+  background-image: url('./images/css_sprites3.png');
+  background-position: -1px -1px;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+.bird {
+  width: 570px;
+  height: 350px;
+  background-image: url('./images/css_sprites3.png');
+  background-position: -572px -1px;
+  position: absolute;
+  top: 10%;;
+  right: 15%;
+}
+.in {
+  width: 20%;
+  position: absolute;
+  bottom: 10%;
+  right: 15%;
+}
+.out {
+  width: 20%;
+  position: absolute;
+  bottom: 35%;
+  left: 25%;
+}
+/* ----------------------------------sixth page-------------------------------- */
+.sixth {
+  height: 1100px;
+  position: relative;
+  background-color: white;
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+}
+.sixth h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 50px;
+}
+.one, .two, .three, .four, .one-grey, .two-grey, .three-grey, .four-grey {
+  width: 470px;
+  height: 340px;
+  position: absolute;
+  background-image: url('./images/css_sprites2.png')
+}
+.one-grey, .two-grey, .three-grey, .four-grey {
+  background-position: -1px -343px;
+  opacity: 0;
+  z-index: 2;
+}
+.one-grey:hover, .two-grey:hover, .three-grey:hover, .four-grey:hover {
+  opacity: 0.8;
+}
+.one {
+  background-position: -1px -1px;
+}
+.one-grey, .one {
+  top: 20%;
+  left: 23%;
+}
+.two {
+  background-position: -1px -685px;
+}
+.two-grey, .two {
+  top: 20%;
+  right: 23%;
+}
+.three {
+  background-position: -1px -1026px;
+}
+.three-grey, .three {
+  left: 23%;
+  bottom: 15%;
+}
+.four {
+  background-position: -1px -1368px;
+}
+.four-grey, .four {
+  right: 23%;
+  bottom: 15%;
+}
+/* -----------------------------------------seven page-------------------------- */
+.seventh {
+  height: 710px;
+  background-color: white;
+  position: relative;
+  text-align: center;
+}
+.info {
+  width: 30%;
+  height: 80%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  border: 1px solid lightgrey;
+  border-radius: 1%;
+}
+.info-input, .info-area, .send{
+  width: 80%;
+  margin-top: 5%;
+}
+.info-input, .send{
+  height: 8%;
+}
+.send {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border: 0;
+}
+.concat {
+  width: 20%;
+  height: 80%;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  font-weight: lighter;
+}
+.location, .telephone, .mail {
+  width: 80%;
+  height: 25%;;
+  position: absolute;
+  text-align: left;
+}
+.location p, .telephone p, .mail p {
+  position: absolute;
+  left: 15%;
+
+}
+.location {
+  top: 30%;
+}
+.telephone {
+  top: 45%;
+}
+.mail {
+  top: 55%;
+}
+.local, .tel, .m {
+  background-image: url('./images/css_sprites.png');
+  position: absolute;
+}
+.local {
+  width: 19px;
+  height: 25px;
+  background-position: -174px -78px;
+  top: 12%;
+}
+.tel {
+  width: 24px;
+  height: 24px;
+  background-position: -173px -52px;
+  top: 12%;
+}
+.m {
+  width: 23px;
+  height: 19px;
+  background-position: -173px -105px;
+  top: 15%;
+}
+/* --------------------------------------footer--------------------------------- */
+footer {
+  height: 410px;
+  background-color: rgb(20, 20, 20);
+  position: relative;
+}
+footer ul {
+  position: relative;
+  display: inline-block;
+  width: 15%;
+  height: 80%;
+  text-align: center;
+  color: white;
+  list-style: none;
+  top: 15%;
+  left: 10%;
+}
+footer li {
+  height: 15%;
+}
+footer a {
+  color: gray;
+  text-decoration: none;
+}
+.enjoy {
+  top: -8%;
+}
+
+.face, .t, .o, .tw, .google, .ine {
+  display: inline-block;
+  background-image: url('./images/css_sprites.png');
+}
+.face {
+  width:9px;
+  height: 18px;
+  background-position: -194px -77px;
+}
+.t {
+  width:9px;
+  height: 17px;
+  background-position: -138px -90px;
+}
+.o {
+  width:14px;
+  height: 17px;
+  background-position: -122px -90px;
+}
+.tw {
+  width:16px;
+  height: 18px;
+  background-position: -78px -74px;
+}
+.google {
+  width: 24px;
+  height: 17px;
+  background-position: -173px -125px;
+}
+.ine {
+  width:16px;
+  height: 18px;
+  background-position: -95px -73px;
+}
